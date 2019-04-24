@@ -24,7 +24,7 @@ Connecting terminal to running container </br>
 $`docker rmi hello-world` </br>
 
 Exit bash without closing the container (detach) </br>
-$`Ctrl+p then Ctrl+q` </br>
+`Ctrl+p` then `Ctrl+q` </br>
 
 Connect bash to running container (attach) </br>
 $`docker attach container_name` </br>
