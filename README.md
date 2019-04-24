@@ -19,6 +19,15 @@ $`docker rmi hello-world`<br>
 
 # Building the dockerfile:
 
+creating a simple image
+$`docker run --name myimg ubuntu:16.04`<br>
+
+?
+$`docker rm myimg`<br>
+
+now lets make it interactive
+$`docker run -it --name nginx1 ubuntu:16.04 bash`<br>
+
 inside this folder, build the dockerfile content<br>
 $`docker build --tag nginx:1.0 path`<br>
 
