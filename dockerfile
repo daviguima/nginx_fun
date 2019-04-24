@@ -1,8 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 RUN apt-get update \
     && apt-get install -y nginx
 
 COPY meusite.com /var/www/html/
-
-CMD ["bash"]
