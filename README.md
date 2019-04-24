@@ -1,5 +1,5 @@
 # About this repository
-This is a simple static website served by nginx hosted by a docker container
+This is a simple static website served by **nginx** and hosted by a **docker container**
 
 # Docker commands:
 inside this folder, build the dockerfile content<br>
