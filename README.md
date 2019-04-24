@@ -58,7 +58,7 @@ $`docker build --tag nginx:1.0 path` </br>
 building the docker file without network bind </br>
 $`docker run -it --name nginx-site nginx:1.0 bash` </br>
 
-run the container and bind it to your local network port </br>
+run the container and bind it to your local network port (EXPOSE: can only be done when creating it!!!) </br>
 $`docker run -it -p 8080:80 --name nginx-site2 nginx:1.0 bash` </br>
 
 start nginx </br>
