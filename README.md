@@ -1,9 +1,26 @@
 # About this repository
 This is a simple static website served by **nginx** and hosted by a **docker container**
 
-# Docker commands:
+# Docker useful commands:
+Verify running containers<br>
+$`docker ps`<br>
+
+Verify **all** containers<br>
+$`docker ps -a`<br>
+
+Listing available images<br>
+$`docker images`<br>
+
+Removing a container<br>
+$`docker rm container_name`<br>
+
+Removing a image<br>
+$`docker rmi hello-world`<br>
+
+# Building the dockerfile:
+
 inside this folder, build the dockerfile content<br>
-$`docker build --tag nginx:1.0`<br>
+$`docker build --tag nginx:1.0 path`<br>
 
 building the docker file without network bind<br>
 $`docker run -it --name nginx-site nginx:1.0 bash`<br>
