@@ -29,6 +29,10 @@ Exit bash without closing the container (detach) </br>
 Connect bash to running container (attach) </br>
 $`docker attach container_name` </br>
 
+Restart an existing container after it exited and your changes are still there </br>
+$`docker start -i $(docker ps -q -l)` </br>
+from: https://stackoverflow.com/questions/21928691/how-to-continue-a-docker-container-which-has-exited
+
 # Starting NGINX and hosting a static website:
 Create a simple nginx-compatible linux image </br>
 $`docker run --name myimg ubuntu:18.04` </br>
